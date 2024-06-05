@@ -1,0 +1,22 @@
+//variables.scss
+@font-face {
+  font-family: "MuseoSans";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: local('MuseoSans'), url("../fonts/MuseoSans.woff") format("woff");
+}
+
+$body-font-family: 'MuseoSans';
+
+$typoOptions: display-4, display-3, display-2, display-1, headline, title,
+body-1m subtitle-1, subtitle-2, text-h5, text-h4, text-h3, text-h2, text-h1,
+text-h6, title, caption, overline;
+#app {
+  font-family: $body-font-family, sans-serif !important;
+  @each $typoOption in $typoOptions {
+    .#{$typoOption} {
+      font-family: $body-font-family, sans-serif !important;
+    }
+  }
+}
