@@ -22,10 +22,6 @@ Entre las principales características de esta aplicacion web se encuentra:
 
 Requisitos y pasos de instalación se encuentran definidos en el archivo [**INSTALL.md**](INSTALL.md), seguir dicha guía para proceder con la instalación y posteriormente su uso.
 
-## Colaboradores
-
-El proyecto es de propiedad intelectual del Ministerio de Salud de El Salvador y ha sido desarrollado en colaboración con las siguientes personas:
-
 
 ## Enlaces de ayuda
 
